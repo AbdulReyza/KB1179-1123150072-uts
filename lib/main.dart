@@ -10,8 +10,9 @@ class MyWidget extends StatelessWidget {
       title: 'NIM : 1123150072, reyza',
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
       ),
+      home: MySplashScreen(),
     );
   }
 }
