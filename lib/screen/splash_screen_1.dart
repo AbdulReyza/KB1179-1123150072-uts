@@ -17,12 +17,16 @@ class MySplashScreen extends StatelessWidget {
                   height: 200,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.deepOrange
-                   
+                    color: Colors.deepOrange,
+                    image: DecorationImage(
+                  image: AssetImage("assets/images/kucing1.jpg"),
+                  fit: BoxFit.cover,
+             )
               ),
-                   
+               ),
 
-                  ),
+
+
                    ]
                 )
 
