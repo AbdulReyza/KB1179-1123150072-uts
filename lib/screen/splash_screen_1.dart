@@ -6,6 +6,7 @@ class MySplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.orange.shade50,
             body: Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -25,12 +26,26 @@ class MySplashScreen extends StatelessWidget {
                 ),
                ),
 
+                Text('Welcome',
+                  style: TextStyle(
+                      fontSize: 35,
+                      fontWeight: FontWeight.bold
+                    ),
+                  ),
+                  SizedBox(height: 10,),
+                  Text('Enjoy the Fresh Taste',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.normal,
+                      color: Colors.deepOrange
+                    ),
+                  ),
 
 
-                   ]
-                )
 
-
+                  ],
+              ),
             ),
           );();
     
