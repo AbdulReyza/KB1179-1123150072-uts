@@ -1,16 +1,31 @@
-# kb1179_1123150072_uts
+<img width="1366" height="768" alt="uts_reyza" src="https://github.com/user-attachments/assets/6a1ad2f7-fc95-434b-9c94-d85d8c3fb25c" />
 
-A new Flutter project.
+## Profil
 
-## Getting Started
+- **Nama Lengkap:** Abdul Reyza Ramadhanu
+- **NIM:** 1123150072
 
-This project is a starting point for a Flutter application.
+## Cara Menjalankan Project
 
-A few resources to get you started if this is your first Flutter project:
+1. Pastikan sudah menginstal **Flutter SDK** minimal versi 3.x.x
+2. Clone atau download repository project ini:
+   ```bash
+   git clone https://github.com/AbdulReyza/KB1179-1123150072-uts.git
+   cd KB1179-1123150072-uts
+   ```
+3. Install semua depedency:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. run:
+
+```bash
+flutter run
+```
+
+## Catatan Kendala
+```bash
+nihil
+```
