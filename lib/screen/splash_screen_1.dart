@@ -13,7 +13,7 @@ class MySplashScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
 
                    children: [
-                  SizedBox(height: 200),
+                  SizedBox(height: 150),
                   Container(
                     width: 200,
                     height: 200,
@@ -26,7 +26,7 @@ class MySplashScreen extends StatelessWidget {
                   )
                 ),
                ),
-
+                SizedBox(height: 20,),
                 Text('Welcome',
                   style: TextStyle(
                       fontSize: 35,

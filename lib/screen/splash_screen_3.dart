@@ -12,7 +12,7 @@ class MySplashScreen3 extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
 
                    children: [
-                    SizedBox(height: 200),
+                    SizedBox(height: 150),
                     Container(
                       width: 200,
                       height: 200,
@@ -25,7 +25,7 @@ class MySplashScreen3 extends StatelessWidget {
                     )
                   ),
                 ),
-
+                SizedBox(height: 20,),
                 Text('Get Started',
                   style: TextStyle(
                       fontSize: 35,
@@ -86,7 +86,7 @@ class MySplashScreen3 extends StatelessWidget {
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.deepOrange,
                         ),
-                        child: Text('Continue',
+                        child: Text('Start',
                         style: TextStyle(
                           color: Colors.white
                         ),),
