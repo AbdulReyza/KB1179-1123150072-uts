@@ -11,18 +11,18 @@ class MySplashScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
 
                    children: [
-                SizedBox(height: 50),
-                Container(
-                  width: 200,
-                  height: 200,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.deepOrange,
-                    image: DecorationImage(
-                  image: AssetImage("assets/images/kucing1.jpg"),
-                  fit: BoxFit.cover,
-             )
-              ),
+                  SizedBox(height: 50),
+                  Container(
+                    width: 200,
+                    height: 200,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.deepOrange,
+                      image: DecorationImage(
+                        image: AssetImage("assets/images/kucing1.jpg"),
+                        fit: BoxFit.cover,
+                  )
+                ),
                ),
 
 
