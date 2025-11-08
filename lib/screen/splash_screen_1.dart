@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kb1179_1123150072_uts/screen/splash_screen_2.dart';
 
 class MySplashScreen extends StatelessWidget {
   const MySplashScreen({super.key});
@@ -20,7 +21,7 @@ class MySplashScreen extends StatelessWidget {
                       shape: BoxShape.circle,
                       color: Colors.deepOrange,
                       image: DecorationImage(
-                        image: AssetImage("assets/images/kucing1.jpg"),
+                        image: AssetImage("assets/images/Fanta-Logo-2008-2010.png"),
                         fit: BoxFit.cover,
                   )
                 ),
@@ -81,7 +82,10 @@ class MySplashScreen extends StatelessWidget {
                       width: double.infinity,
                       child: ElevatedButton(
                         onPressed: (){
-                      
+                              Navigator.push(
+                              context, 
+                              MaterialPageRoute(builder: (context) => const MySplashScreen2()),
+                            );
                         }, 
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.deepOrange,
