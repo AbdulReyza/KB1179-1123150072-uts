@@ -81,7 +81,7 @@ class Login extends StatelessWidget {
                       labelStyle: TextStyle(
                         color: Colors.white,
                       ),
-                      hintText: 'Enter your Password',
+                      hintText: 'Masukin Password Kamu',
                       hintStyle: TextStyle(
                         color: Colors.white
                       ),
@@ -109,6 +109,18 @@ class Login extends StatelessWidget {
                         borderSide: BorderSide(
                           color: Colors.white,
                           width: 2
+                        ),
+                      ),
+                    ),
+                  ),
+                  SizedBox(height: 10,),
+                  Align(
+                    alignment: Alignment.centerRight,
+                    child: TextButton(
+                        onPressed: () {}, 
+                        child: Text('Lupa Password ?', 
+                        style: TextStyle(
+                          color: Colors.white
                         ),
                       ),
                     ),
