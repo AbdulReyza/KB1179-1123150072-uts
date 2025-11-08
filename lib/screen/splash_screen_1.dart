@@ -12,7 +12,7 @@ class MySplashScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
 
                    children: [
-                  SizedBox(height: 50),
+                  SizedBox(height: 200),
                   Container(
                     width: 200,
                     height: 200,
@@ -74,7 +74,27 @@ class MySplashScreen extends StatelessWidget {
                       SizedBox(width: 10,),
                     ],
                   ),
-
+                  SizedBox(height: 20,),
+                  Container(
+                    child: SizedBox(
+                      height: 40,
+                      width: double.infinity,
+                      child: ElevatedButton(
+                        onPressed: (){
+                      
+                        }, 
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.deepOrange,
+                        ),
+                        child: Text('Continue',
+                        style: TextStyle(
+                          color: Colors.white
+                        ),),
+                        
+                      ),
+                    ),
+                  ),
+                  Spacer(),
 
                   ],
               ),
